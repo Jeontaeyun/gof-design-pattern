@@ -93,6 +93,7 @@ class LGComputerFactory implements ComputerFactory {
 /**
  * Factory of Computer Factory
  * 컴퓨터 팩토리를 생성하는 팩토리 구현
+ * 공통된 접근점 createKeyboard와 createMouse를 통한 접근
  */
 
 class FactoryOfComputerFactory {
