@@ -9,6 +9,9 @@ const readline = require('readline-sync');
  */
 /**
  * Component 실질적인 인스턴스를 컨트롤 하는 역할
+ * 컴포넌트는 독립적인 기능을 수행하는 단위 모듈이다.
+ * 컴포는트의 세부사항은 겉으로 드러나선  안되며, 일부러 끄집어 내려는 시도조차 하지 말아야 하낟.
+ * 필요한 것은 단지 해당 컴포넌트를 쓰기 위해서 제공해주는 일종의 장치이ㅣ다.
  */
 interface IBeverage {
 	getTotalPrice(): number;
@@ -28,6 +31,10 @@ abstract class AbstAdding implements IBeverage {
 		return this.base.getTotalPrice();
 	}
 }
+
+/**
+ * ConcreteComponent 컴포넌트의 실질적인 부분
+ */
 
 class Base implements IBeverage {
 	public getTotalPrice(): number {
