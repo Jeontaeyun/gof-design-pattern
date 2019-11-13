@@ -7,7 +7,7 @@ interface Command {
 }
 
 /**
- * * 실제 명령어를 수행하는 Invoker(호출자) 입니다.
+ * * 실제 명령어을 받아 실제로 수해하는 Receiver 입니다.
  */
 
 class Heater {
@@ -51,7 +51,7 @@ class LampOnCommand implements Command {
 }
 
 /**
- * * OKGoogle은 클라이언트로 부터 명령을 받는 Reciver의 역할을 합니다.
+ * * OKGoogle은 클라이언트로 부터 명령을 호출하는 Invoker 의 역할을 합니다.
  */
 
 class OKGoogle {
