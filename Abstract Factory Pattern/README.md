@@ -3,7 +3,7 @@
 ## Abstract Factory Pattern 요약
 
 - 생성 패턴
-- 서로 다른 객체들을 하나으 팩토리에서 생성 관리하는 패턴
+- 서로 다른 객체들을 하나의 팩토리에서 생성 관리하는 패턴
 
 ## Abstract Factory Pattern 소개
 
